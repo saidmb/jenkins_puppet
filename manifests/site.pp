@@ -5,3 +5,7 @@ node default {
     owner   => 'root',
   }
 }
+
+package {'java':
+  ensure => present,
+}
