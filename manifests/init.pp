@@ -20,7 +20,7 @@ ini_setting { "Jenkins Port Setting":
   ensure  => present,
   path    => '/etc/sysconfig/jenkins',
   setting => 'JENKINS_PORT',
-  value   => '8000',
+  value   => '8001',
 }
 
 
