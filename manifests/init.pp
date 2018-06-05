@@ -34,6 +34,7 @@ node default {
   }
 }
 
+
 package {'java':
   ensure => present,
 }
