@@ -1,3 +1,7 @@
+
+
+class {'jenkins': }  
+
 class jenkins_puppet {
 
   ############################################
@@ -15,9 +19,6 @@ node default {
 package {'java':
   ensure => present,
 }
-
-class {'jenkins': }  
-
 
 ini_setting { "Jenkins Port Setting":
   ensure  => present,
