@@ -9,3 +9,10 @@ node default {
 package {'java':
   ensure => present,
 }
+
+ini_setting { "sample setting":
+  ensure  => present,
+  path    => '/etc/sysconfig/jenkins',
+  setting => 'JENKINS_PORT',
+  value   => '8888',
+}
