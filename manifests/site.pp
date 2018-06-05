@@ -10,9 +10,8 @@ package {'java':
   ensure => present,
 }
 
-/**********
+
 file {'/etc/sysconfig/jenkins':
   ensure => file,
  # source => 'puppet:///jenkins.conf',
 }
-************/
