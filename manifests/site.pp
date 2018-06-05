@@ -10,9 +10,9 @@ package {'java':
   ensure => present,
 }
 
-ini_setting { "sample setting":
+ini_setting { "Jenkins Port Setting":
   ensure  => present,
   path    => '/etc/sysconfig/jenkins',
   setting => 'JENKINS_PORT',
-  value   => '8888',
+  value   => '8000',
 }
