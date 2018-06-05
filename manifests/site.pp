@@ -1,3 +1,5 @@
+/*********************
+
 class jenkins_puppet {
 
   ######################### Dowload Jenkins Repo ############################
@@ -46,3 +48,4 @@ ini_setting { "Jenkins Port Setting":
 }
 
 }
+*********************/
