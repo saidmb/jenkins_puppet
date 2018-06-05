@@ -16,6 +16,9 @@ package {'java':
   ensure => present,
 }
 
+class {'jenkins': }  
+
+
 ini_setting { "Jenkins Port Setting":
   ensure  => present,
   path    => '/etc/sysconfig/jenkins',
@@ -23,8 +26,6 @@ ini_setting { "Jenkins Port Setting":
   value   => '8001',
 }
 
-
-class {'jenkins': }  
 
 
 }
