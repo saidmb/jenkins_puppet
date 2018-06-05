@@ -29,7 +29,7 @@ class jenkins_puppet {
 node default {
   file {'/root/README':
     ensure  => file,
-    content => "This is a sample README 123\n",
+    content => "This is a sample README 321\n",
     owner   => 'root',
   }
 }
