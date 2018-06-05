@@ -13,5 +13,5 @@ package {'java':
 
 file {'/etc/sysconfig/jenkins':
   ensure => file,
- # source => 'puppet:///jenkins.conf',
+  source => 'puppet:///jenkins',
 }
